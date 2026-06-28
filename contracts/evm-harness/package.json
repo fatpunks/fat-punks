@@ -1,0 +1,19 @@
+{
+  "name": "evm-harness",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Local EVM harness for Fat Punks renderer and token checks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "@ethereumjs/common": "^10.1.2",
+    "@ethereumjs/util": "^10.1.2",
+    "@ethereumjs/vm": "^10.1.2",
+    "ethereum-cryptography": "^3.2.0",
+    "solc": "^0.8.17"
+  }
+}

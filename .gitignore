@@ -1,0 +1,40 @@
+# Secrets and local environment
+.env
+.env.*
+contracts/.env
+!.env.example
+!contracts/.env.example
+
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+*.tsbuildinfo
+
+# Generated outputs
+ml/out/
+__pycache__/
+ml/__pycache__/
+ml/verify/__pycache__/
+
+# Foundry/build artifacts
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+contracts/parity_out/
+contracts/evm-harness/artifacts.json
+
+# Logs
+*.log
+contracts/evm-harness/*.log
+
+# Local files
+.DS_Store
+.vscode/
+.idea/
+.claude/
+.codex/
+*.swp
+*.swo
+Fat Punks.dc.html
